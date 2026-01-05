@@ -1,8 +1,3 @@
-import streamlit as st
-import PyPDF2
-import re
-import pandas as pd
-
 st.set_page_config(page_title="Ultimate Offer Analyzer", layout="wide")
 st.title("New Grad Offer Analyzer + City Budget Calculator")
 
@@ -134,5 +129,6 @@ with col2:
     if you_pay == 0: st.success("Fully covered — fantastic!")
     elif you_pay < 2000: st.success("Very reasonable out-of-pocket.")
     else: st.warning("Consider negotiating a higher relocation package.")
+
 
 st.caption("Updated Jan 2026  Built for aerospace new grads 🚀")
