@@ -1,4 +1,8 @@
 # test deploy
+import streamlit as st
+import PyPDF2
+import re
+import pandas as pd
 st.set_page_config(page_title="Ultimate Offer Analyzer", layout="wide")
 st.title("New Grad Offer Analyzer + City Budget Calculator")
 
@@ -133,4 +137,5 @@ with col2:
 
 
 st.caption("Updated Jan 2026  Built for aerospace new grads 🚀")
+
 
